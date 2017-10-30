@@ -1,0 +1,158 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  max-width: 1280px;
+}
+
+#header {
+  height: 50px;
+  background-color: #487ce0;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-top: 5px;
+}
+
+#navigation {
+  padding: 0 30px;
+}
+
+#navigation > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation > ul > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation > ul > li > a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#navigation > ul > li > a:hover {
+  background-color: #2b67db;
+}
+
+#main {
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+}
+
+#headline {
+  border-left: 10px solid #497be0;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.fluid-image {
+  width: 100%;
+  display: block;
+}
+
+#content {
+  display: flex;
+}
+
+#content > #article {
+  width: 75%;
+  padding-right: 15px;
+}
+
+#content > #ads {
+  width: 25%;
+  padding-left: 15px;
+  border-left: 1px solid #eee;
+}
+
+.blurb {
+  color: #cbcbcb;
+  line-height: 1.5;
+}
+
+.small-heading {
+  color: #cbcbcb;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.image-description {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #020202;
+}
+
+.article-text {
+  padding: 10px;
+}
+
+.article-text p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.ad {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.ad-title > a {
+  font-size: 18px;
+  color: #497be0;
+  font-weight: bold;
+}
+
+#join-mailing-list {
+  padding: 15px 0;
+}
+
+#join-mailing-list input {
+  width: 100%;
+}
+
+#mailing-list-buttons {
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+#mailing-list-buttons > button {
+  float: right;
+  padding: 5px;
+  margin: 0;
+}

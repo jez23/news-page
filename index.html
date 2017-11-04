@@ -9,50 +9,29 @@
 </head>
 <body>
   <div id="container">
-
-
-    
-<nav id='cssmenu'>
-<ul>
-   <li class='active'><a href='#'><img src="images/logo.png" class="logo"></a></li>
-   <li><a href='#'>Home</a></li>
-   <li><a href='#'>News</a></li>
-   <li><a href='#'>Classifieds</a></li>
-   <li> <div id="search">
-         <div class="icon-input">
-           <lable>
-           <input type="text" name="search" placeholder="Search">
-           <i class="fa fa-search"></i>
-           </lable>          
-         </div>
-       </div></li>
-</ul>
-
-</nav>
-
-
-
-     <!--<nav id="header">
-      <a href="#">
-         <img src="images/logo.png" class="logo">
-       </a>
-       <div id="navigation">
-         <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">News</a></li>
-           <li><a href="#">Classifieds</a></li>
-         </ul>
-       </div>
-       <div id="search">
-         <div class="icon-input">
-           <lable>
-           <input type="text" name="search" placeholder="Search">
-           <i class="fa fa-search"></i>
-           </lable>          
-         </div>
-       </div>
-    </nav> -->
-    <div id="main">  
+    <div class="skipToMain">
+      <a href="#maincontent">Skip to main content</a>
+    </div>
+    <nav id='cssmenu'>
+      <ul>
+        <li class='active'><a href='#'><img src="images/logo.png" class="logo" alt="The MCRCodes Herald logo"></a></li>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>News</a></li>
+        <li><a href='#'>Classifieds</a></li>
+        <li> 
+          <div id="search">
+            <div class="icon-input">
+              <lable>
+                <input type="text" name="search" placeholder="Search">
+                <i class="fa fa-search"></i>
+              </lable>          
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="main">
+      <main id="maincontent">  
       <div id="headline">
         <span class="heading">Lorem ipsum dolor sit amet</span>
         <span class="blurb">
@@ -87,13 +66,14 @@
           </div>
         </article>
         <aside id="ads">
-          <span class="small-heading">Mailing List</span>
+          <h2>Mailing List</h2>
           <form id="join-mailing-list mailing-list-buttons">
-            <label>
             <input type="text" name="email" placeholder="E-mail Address">
             </label>
-              <button type="submit">Subscribe</button>
-              <button type="button">Unsubscribe</button>
+            <br />
+            <br />
+              <button class="buttonSpacing" type="submit">Subscribe</button>
+              <button class="buttonSpacing" type="button">Unsubscribe</button>
           </form>
           <span class="small-heading">Advertisements</span>
           <div class="ad">

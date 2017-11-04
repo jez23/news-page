@@ -1,3 +1,20 @@
+.buttonSpacing {
+  padding: 10px; 
+  margin-right: 10px; 
+  margin-bottom: 10px;
+}
+.skipToMain {
+  background-color: #000000;
+  color: #ffffff;
+}
+.skipToMain a {
+  color: #ffffff;
+  margin: 10px
+}
+#search {
+  margin: 10px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -169,10 +186,10 @@ body {
   padding-top: 15px;
 }
 
-#mailing-list-buttons > button {
+.mailing-list-buttons button {
 
   padding: 10px;
-  margin: 0;
+  margin-right: 200px;
 }
 
 
@@ -213,7 +230,7 @@ body {
   line-height: 1;
 }
 #cssmenu > ul {
-  background: #3db2e1;
+  background: #000000;
 }
 #cssmenu > ul > li {
   float: left;
@@ -239,7 +256,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  background: #3db2e1;
+  background: #000000;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
@@ -289,7 +306,7 @@ body {
 }
 #cssmenu > ul > li:hover > a::before,
 #cssmenu > ul > li > a:hover::before {
-  background: #3db2e1;
+  background: #191919;
 }
 #cssmenu.small-screen {
   width: 100%;
@@ -325,7 +342,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: #3db2e1;
+  background: #000000;
 }
 #cssmenu.small-screen #menu-button:after {
   content: "";
